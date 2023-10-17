@@ -36,6 +36,7 @@ MODELS = {
     'vocoder.pth': 'https://huggingface.co/jbetker/tortoise-tts-v2/resolve/main/.models/vocoder.pth',
     'rlg_auto.pth': 'https://huggingface.co/jbetker/tortoise-tts-v2/resolve/main/.models/rlg_auto.pth',
     'rlg_diffuser.pth': 'https://huggingface.co/jbetker/tortoise-tts-v2/resolve/main/.models/rlg_diffuser.pth',
+    'ruslat.pth': 'https://huggingface.co/SerCe/tortoise-tts-ruslan/raw/main/model/ruslan.pth'
 }
 
 def download_models(specific_models=None):
